@@ -1,0 +1,32 @@
+---
+abstract: 'Pipe Atom/RSS feeds through UNIX-style high-level filters'
+author:
+  - 'Vince Veselosky <vince@control-escape.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Feed-Pipe
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Data::UUID: 0
+  DateTime::Format::HTTP: 0
+  Log::Any: 0.05
+  Moose: 0.92
+  MooseX::Types: 0.19
+  XML::Atom: 0.35
+  XML::Feed: 0.43
+resources:
+  license: http://opensource.org/licenses/mit-license.php
+version: 1.0
