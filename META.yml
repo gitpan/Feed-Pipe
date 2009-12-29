@@ -26,8 +26,10 @@ requires:
   Log::Any: 0.05
   Moose: 0.92
   MooseX::Types: 0.19
-  XML::Atom: 0.35
+  XML::Atom: 0.37
   XML::Feed: 0.43
 resources:
+  homepage: http://github.com/veselosky/Feed-Pipe
   license: http://opensource.org/licenses/mit-license.php
-version: 1.002
+  repository: git://github.com/veselosky/Feed-Pipe.git
+version: 1.003

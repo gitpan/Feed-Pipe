@@ -5,6 +5,8 @@ name     'Feed-Pipe';
 all_from 'lib/Feed/Pipe.pm';
 author   q{Vince Veselosky <vince@control-escape.com>};
 license  'mit';
+repository 'git://github.com/veselosky/Feed-Pipe.git';
+homepage 'http://github.com/veselosky/Feed-Pipe';
 
 # For Feed::Pipe
 requires 'Data::UUID';
@@ -13,7 +15,7 @@ requires 'Log::Any', '0.05';
 requires 'Moose', '0.92';
 requires 'MooseX::Types', '0.19';
 requires 'XML::Feed', '0.43';
-requires 'XML::Atom', '0.35';
+requires 'XML::Atom', '0.37';
 
 test_requires 'Test::More';
 test_requires 'Path::Class';
